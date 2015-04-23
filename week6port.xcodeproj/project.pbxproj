@@ -14,6 +14,10 @@
 		AABC443F1AE8AF6600734198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABC443E1AE8AF6600734198 /* Images.xcassets */; };
 		AABC44421AE8AF6600734198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABC44401AE8AF6600734198 /* LaunchScreen.xib */; };
 		AABC444E1AE8AF6600734198 /* week6portTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC444D1AE8AF6600734198 /* week6portTests.m */; };
+		AABC44591AE8B51B00734198 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44581AE8B51B00734198 /* News.m */; };
+		AABC445C1AE8B54E00734198 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC445B1AE8B54E00734198 /* NewsCell.m */; };
+		AABC44621AE8B5C100734198 /* ViewNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44611AE8B5C100734198 /* ViewNewsViewController.m */; };
+		AABC44651AE8B67D00734198 /* NewsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44641AE8B67D00734198 /* NewsListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		AABC44471AE8AF6600734198 /* week6portTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week6portTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABC444C1AE8AF6600734198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AABC444D1AE8AF6600734198 /* week6portTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week6portTests.m; sourceTree = "<group>"; };
+		AABC44571AE8B51B00734198 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		AABC44581AE8B51B00734198 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		AABC445A1AE8B54E00734198 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		AABC445B1AE8B54E00734198 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		AABC44601AE8B5C100734198 /* ViewNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewNewsViewController.h; sourceTree = "<group>"; };
+		AABC44611AE8B5C100734198 /* ViewNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewNewsViewController.m; sourceTree = "<group>"; };
+		AABC44631AE8B67D00734198 /* NewsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListController.h; sourceTree = "<group>"; };
+		AABC44641AE8B67D00734198 /* NewsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				AABC443E1AE8AF6600734198 /* Images.xcassets */,
 				AABC44401AE8AF6600734198 /* LaunchScreen.xib */,
 				AABC44311AE8AF6600734198 /* Supporting Files */,
+				AABC44571AE8B51B00734198 /* News.h */,
+				AABC44581AE8B51B00734198 /* News.m */,
+				AABC445A1AE8B54E00734198 /* NewsCell.h */,
+				AABC445B1AE8B54E00734198 /* NewsCell.m */,
+				AABC44601AE8B5C100734198 /* ViewNewsViewController.h */,
+				AABC44611AE8B5C100734198 /* ViewNewsViewController.m */,
+				AABC44631AE8B67D00734198 /* NewsListController.h */,
+				AABC44641AE8B67D00734198 /* NewsListController.m */,
 			);
 			path = week6port;
 			sourceTree = "<group>";
@@ -220,7 +240,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABC443A1AE8AF6600734198 /* ViewController.m in Sources */,
+				AABC44651AE8B67D00734198 /* NewsListController.m in Sources */,
 				AABC44371AE8AF6600734198 /* AppDelegate.m in Sources */,
+				AABC44621AE8B5C100734198 /* ViewNewsViewController.m in Sources */,
+				AABC44591AE8B51B00734198 /* News.m in Sources */,
+				AABC445C1AE8B54E00734198 /* NewsCell.m in Sources */,
 				AABC44341AE8AF6600734198 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
